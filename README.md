@@ -30,3 +30,6 @@ bakery-website
 - Modify `src/css/styles.css` to change the custom styles.
 - Update `src/index.html` to add or remove content as needed.
 - Use Bootstrap components by referencing the Bootstrap documentation for additional functionality.
+
+
+## Base
