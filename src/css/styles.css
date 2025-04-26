@@ -1,0 +1,112 @@
+/* filepath: /home/randall/Documents/code/bakery/bakery-website/src/css/styles.css */
+/* General Styles */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fff5f8; /* Light pastel pink */
+    color: #5a5a5a; /* Soft gray for text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #ffe4e6; /* Soft pink */
+    color: #5a5a5a;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ff6f91; /* Vibrant pink for the title */
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #ffb3c1; /* Pastel pink */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #ff6f91; /* Vibrant pink on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    color: #ff6f91;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 1.2rem;
+    color: #5a5a5a;
+}
+
+/* Card Styles */
+.card {
+    background-color: #fff;
+    border: 1px solid #ffe4e6;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.card h3 {
+    color: #ff6f91;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #5a5a5a;
+    font-size: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffe4e6;
+    color: #5a5a5a;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+/* Bootstrap Overrides */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
